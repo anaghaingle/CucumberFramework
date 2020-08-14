@@ -1,0 +1,187 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-14T05:41:48.632Z",
+        "line": 13,
+        "name": "Successful login with valid credentials",
+        "description": "",
+        "id": "logintest;successful-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22458646300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is at home page",
+            "match": {
+              "location": "stepDefinition.LoginStepDefn.user_is_at_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1907978700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigate to login page",
+            "match": {
+              "location": "stepDefinition.LoginStepDefn.user_navigate_to_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1118904300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter UsernameAnagha",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Anagha",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.LoginStepDefn.user_enter_Username(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227869600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter Password123456",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.LoginStepDefn.user_enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "message dispayed is successful login",
+            "match": {
+              "location": "stepDefinition.LoginStepDefn.message_dispayed_is_successful_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-14T05:41:48.632Z",
+        "line": 14,
+        "name": "Successful login with valid credentials",
+        "description": "",
+        "id": "logintest;successful-login-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21665268800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is at home page",
+            "match": {
+              "location": "stepDefinition.LoginStepDefn.user_is_at_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1697782200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigate to login page",
+            "match": {
+              "location": "stepDefinition.LoginStepDefn.user_navigate_to_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1172475600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter UsernameOm",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Om",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.LoginStepDefn.user_enter_Username(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263848900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter Password123564",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123564",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.LoginStepDefn.user_enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "message dispayed is successful login",
+            "match": {
+              "location": "stepDefinition.LoginStepDefn.message_dispayed_is_successful_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "LoginTest",
+    "description": "",
+    "id": "logintest",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/LoginTest.feature",
+    "tags": []
+  }
+]
